@@ -4,28 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASTRO-CYBER Terminal</title>
-  
+    <!-- Tailwind CSS CDN for utility classes -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
+    <!-- Google Fonts: Courier New for the terminal monospace aesthetic -->
     <link href="https://fonts.googleapis.com/css2?family=Courier+New&display=swap" rel="stylesheet">
-
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
+      /* Ensure Courier New is applied globally */
       body {
         font-family: 'Courier New', monospace;
       }
     </style>
 </head>
 <body class="matrix-bg">
-   
-    <div id="root" class="min-h-screen flex items-center justify-center p-4"></div>
+    <!-- The main container for our application -->
+    <div id="app-container" class="min-h-screen flex items-center justify-center p-4"></div>
 
-
-    <script type="text/babel" src="script.js"></script>
+    <!-- Your main application script -->
+    <script src="script.js"></script>
 </body>
 </html>
