@@ -9,7 +9,7 @@ let secretKey = null; // The correct key for validation
 let terminalOutput = [];
 let commandInput = '';
 
-// --- Animation Intervals/Timeouts ---
+
 let typingAnimationInterval = null;
 let sublineAnimationInterval = null;
 let showHelpTextTimeout = null;
